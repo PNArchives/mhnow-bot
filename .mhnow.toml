@@ -1,0 +1,10 @@
+[Database]
+host = 'localhost'
+port = 5432
+user = 'postgres'
+password = 'postgres'
+db_name = 'mhnow'
+ssl_mode = 'disable'
+
+[Discord]
+bot_token = 'Add bot token here!!!'
