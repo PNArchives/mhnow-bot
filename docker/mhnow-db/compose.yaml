@@ -1,0 +1,14 @@
+version: '3'
+services:
+  postgresql:
+    image: postgres:15
+    # platform: linux/amd64   # for mac silicon chip
+    hostname: db
+    container_name: postgresql
+    environment:
+      - TZ=Asia/Tokyo
+      - POSTGRES_DB=mhnow
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - 5432:5432
